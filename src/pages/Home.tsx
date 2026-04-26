@@ -116,44 +116,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Details/Why Us */}
-      <section className="py-32 px-6 md:px-20 max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 font-serif text-center md:text-left">
-          <div>
-            <span className="text-2xl mb-4 block italic">🤍</span>
-            <h4 className="text-lg mb-2">Accueil & Écoute</h4>
-            <p className="text-sm text-brand-label">Un accompagnement sur mesure pour comprendre votre univers.</p>
-          </div>
-          <div>
-            <span className="text-2xl mb-4 block italic">🪡</span>
-            <h4 className="text-lg mb-2">Qualité Irréprochable</h4>
-            <p className="text-sm text-brand-label">Des finitions soignées et des matières nobles.</p>
-          </div>
-          <div>
-            <span className="text-2xl mb-4 block italic">💰</span>
-            <h4 className="text-lg mb-2">Budget Respecté</h4>
-            <p className="text-sm text-brand-label">Rendre l'exceptionnel plus accessible à toutes.</p>
-          </div>
-          <div>
-            <span className="text-2xl mb-4 block italic">⏱️</span>
-            <h4 className="text-lg mb-2">Délais Courts</h4>
-            <p className="text-sm text-brand-label">Votre création prête en seulement 3 mois.</p>
-          </div>
-        </div>
-      </section>
-
-      {/* Footer Info */}
-      <footer className="bg-brand-secondary border-t border-brand-border py-20 px-6 text-center">
-        <h3 className="text-3xl font-serif italic mb-12">Maison Dentelle</h3>
-        <div className="space-y-6 text-sm tracking-widest uppercase font-medium text-brand-label">
-          <p>Showroom sur RDV</p>
-          <p>5 rue de la Poste, 57100 THIONVILLE</p>
-          <p className="lowercase tracking-normal italic text-lg text-brand-ink">info.maisondentelle@gmail.com</p>
-          <div className="pt-8 opacity-40 text-[10px]">
-            © 2026 Maison Dentelle — Haute Couture & Prêt-à-porter
-          </div>
-        </div>
-      </footer>
+      {/* Pillars Section has been removed as per request */}
     </div>
   );
 }
