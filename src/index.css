@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap');
+
+@theme {
+  --font-serif: "Georgia", serif;
+  --font-sans: "Helvetica Neue", "Arial", sans-serif;
+  
+  --color-brand-paper: #FDFCFB;
+  --color-brand-ink: #1A1A1A;
+  --color-brand-border: #EAE2D7;
+  --color-brand-label: #8B8378;
+  --color-brand-secondary: #F4F1EE;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-paper text-brand-ink font-sans antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-serif italic;
+  }
+
+  .font-serif {
+    @apply font-serif italic;
+  }
+}
+
+@layer utilities {
+  .clip-oval {
+    clip-path: ellipse(50% 50% at 50% 50%);
+  }
+  
+  .vertical-text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+  }
+
+  .letter-spacing-widest {
+    letter-spacing: 0.25em;
+  }
+}
